@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.line-header {
+    margin-bottom: 10px;
+    height: 2px;
+    width: auto;
+    background-color: #282828;
+}
+
+pre {
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #a6b247;
+}
+
+h2 {
+    padding-bottom: 10px;
+    color: #a6b247;
+    border-bottom: 1px solid #808080;
+}
+
+.code-sample h2 {
+    margin-bottom: 0;
+}
+
+.profile,
+.education,
+.skills {
+    margin-bottom: 30px;
+}
+
+.list {
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.list-header {
+    padding-left: 0;
+    list-style-type: none;
+    color: #808080;
+    font-size: 14px;
+}
+
+.header-info p {
+    font-size: 18px;
+    color: #808080;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-info {
+    width: 70%;
+}
+
+.header-avatar {
+    width: 30%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-left {
+    width: 70%;
+}
+
+.wrapper-left {
+    padding-right: 45px;
+}
+
+.section-right {
+    flex-direction: column;
+    width: 30%;
+}
+
+.wrapper-right {
+    padding-left: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-time {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.avatar {
+    height: 170px;
+    border-radius: 50%;
+}
+
+.rsschool-icon {
+    height: 25px;
+}
+
+.github-icon {
+    height: 45px;
+}
